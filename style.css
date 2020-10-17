@@ -95,10 +95,12 @@ body {
     text-decoration: none;
     color: rgb(51, 51, 51);
     font-size: 15px;
+    transition: (1s);
   }
   
   a:hover {
     color: rgb(117, 117, 117);
+    font-size: 20px;
   }
   
   span {
