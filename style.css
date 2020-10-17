@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: "Fjalla One", sans-serif;
+  }
+  
+  .contenedor {
+    background-image: url("./images/1000.jpg");
+  }
+  
+  .encabezado {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile,
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile {
+    height: 300px;
+  }
+  
+  .navbar {
+    height: 100px;
+  }
+  
+  .profile-img {
+    padding-right: 120px;
+  }
+  
+  #info-personal {
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  #info-personal-contenido {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .panel {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  
+  .fondo-traslucido {
+    background-color: rgba(100, 100, 100, 0.4);
+    height: 300px;
+    margin-bottom: 50px;
+  }
+  
+  .centrar-elementos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  p {
+    text-align: center;
+    padding-top: 130px;
+    position: relative;
+    right: 125px;
+  }
+  
+  h1 {
+    color: rgb(51, 51, 51);
+    font-size: 30px;
+  }
+  
+  h2 {
+    font-size: 15px;
+    color: rgb(117, 117, 117);
+  }
+  
+  ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+  
+  li {
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    font-size: 15px;
+  }
+  
+  a:hover {
+    color: rgb(117, 117, 117);
+  }
+  
+  span {
+    display: block;
+    color: rgb(51, 51, 51);
+    position: relative;
+  }
+  
+  h3 {
+    color: rgb(51, 51, 51);
+    font-size: 18px;
+    position: relative;
+  }
+  
+  .imagen-información {
+    width: 250px;
+    position: relative;
+  }
+  
+  h4 {
+    color: rgb(51, 51, 51);
+    font-size: 18px;
+    position: relative;
+  }
+  
+  .icono {
+    position: relative;
+    padding: 25px;
+  }
+  
+  #curso-deuk {
+    display: inline;
+    position: relative;
+  }
+  
+  #pie {
+    color: rgb(117, 117, 117);
+    font-size: 13px;
+    position: relative;
+    padding: 20px;
+  }
+  
+  .posicion-ul {
+    position: relative;
+    right: 16px;
+  }
+  
